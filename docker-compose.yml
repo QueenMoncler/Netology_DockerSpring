@@ -1,0 +1,13 @@
+version: '1'
+
+services:
+  myapp3:
+    image: 'dockerapp'
+    ports:
+      - '8080'
+
+  myapp4:
+    image: 'dockerapp'
+    ports:
+      - '8082'
+
